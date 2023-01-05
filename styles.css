@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+}
+
+#container {
+  position: relative;
+}
+
+p {
+  color: #777777;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+
+@media (max-width: 600px) {
+  /* styles for small screens */
+}
+
+@media (min-width: 601px) and (max-width: 999px) {
+  /* styles for medium screens */
+}
+
+@media (min-width: 1000px) {
+  /* styles for large screens */
+}
