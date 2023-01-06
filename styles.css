@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+  color: gray;
   height: 100vh;
 }
 
@@ -13,6 +15,24 @@ body {
   font-weight: bold;
   color: #333;
   padding: 20px;
+}
+
+select {
+  font-family: Helvetica, 'Arial', sans-serif;
+  font-size: 1rem;
+  color: gray;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  text-align-last: center;
+}
+
+option {
+  font-family: Helvetica, 'Arial', sans-serif;
+  font-size: 1rem;
+  color: gray;
 }
 
 #container {
@@ -39,3 +59,5 @@ p {
 @media (min-width: 1000px) {
   /* styles for large screens */
 }
+
+
