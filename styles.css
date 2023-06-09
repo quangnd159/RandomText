@@ -22,11 +22,15 @@ select {
   font-size: 1rem;
   color: gray;
   border: none;
-  border-radius: 0;
-  box-shadow: none;
-  margin: 0;
-  padding: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  outline: none;
   text-align-last: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
 }
 
 option {
@@ -59,5 +63,3 @@ p {
 @media (min-width: 1000px) {
   /* styles for large screens */
 }
-
-
